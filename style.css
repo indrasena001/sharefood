@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/clg.jpg"); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set body height to 100% viewport height */
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team-member {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3,
+  .team-member p {
+    margin: 5px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 0 5px;
+  }
+  .team-info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a light grey border */
+    border-radius: 5px;
+    margin-bottom: 20px; /* Maintain spacing between team members */
+    text-align: center;
+  }
+  
